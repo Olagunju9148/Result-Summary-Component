@@ -132,8 +132,13 @@ body {
 .reaction-score {
     color: hsl(224, 30%, 27%);
     font-weight: 600;
-    line-height: 20px;
-    margin-left: 30px;
+    line-height: 25px;
+    margin-left: 65px;
+}
+
+.reaction-score span {
+    font-weight: 600;
+    color: hsla(224, 30%, 27%, 40%);
 }
 
 .memory {
@@ -154,7 +159,12 @@ body {
     color: hsl(224, 30%, 27%);
     font-weight: 600;
     line-height: 25px;
-    margin-left: 35px;
+    margin-left: 70px;
+}
+
+.memory-score span {
+    font-weight: 600;
+    color: hsla(224, 30%, 27%, 40%);
 }
 
 .verbal {
@@ -174,8 +184,13 @@ body {
 .verbal-score {
     color: hsl(224, 30%, 27%);
     font-weight: 600;
-    line-height: 20px;
-    margin-left: 45px;
+    line-height: 25px;
+    margin-left: 80px;
+}
+
+.verbal-score span {
+    font-weight: 600;
+    color: hsla(224, 30%, 27%, 40%);
 }
 
 .visual {
@@ -196,8 +211,13 @@ body {
 .visual-score {
     color: hsl(224, 30%, 27%);
     font-weight: 600;
-    line-height: 20px;
-    margin-left: 50px;
+    line-height: 25px;
+    margin-left: 80px;
+}
+
+.visual-score span {
+    font-weight: 600;
+    color: hsla(224, 30%, 27%, 40%);
 }
 
 .button {
@@ -218,10 +238,14 @@ body {
     cursor: pointer;
 }
 
-@media screen and (max-width: 760px){
-    /* body {
+/* Attribution */
 
-    } */
+.attribution {
+    position: absolute;
+    top: 40rem;
+}
+
+@media screen and (max-width: 760px){
     .container {
         display: flex;
         justify-content: center;
@@ -240,5 +264,10 @@ body {
 
     .summary-section {
         width: 80%;
+    }
+
+    .attribution {
+        position: absolute;
+        top: 60rem;
     }
 }
